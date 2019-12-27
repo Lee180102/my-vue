@@ -1,4 +1,3 @@
-
 let baseUrl = "";
 switch (process.env.VUE_APP_ENV) {
     case 'dev':
@@ -8,5 +7,5 @@ switch (process.env.VUE_APP_ENV) {
         baseUrl = "http://localhost:8089/"   //生产环境url
         break
 }
- 
+
 export default baseUrl;
